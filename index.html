@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MHR Training Co</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Unassinged classes css */
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+        padding-bottom: 1%;
+        margin-bottom: 2%;
+      }
+      a:link {
+        text-decoration: none;
+        color: #fff;
+      }
+      a:visited {
+        text-decoration: none;
+        color: #fff;
+      }
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+      header {
+        height: 100vh;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.4),
+            rgba(34, 34, 34, 0.4)
+          ),
+          url(images/graduate-gbc76969cc_1280.png);
+        background-size: cover;
+        color: #fff;
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!--Simple NavBar-->
+      <nav class="container">
+        <div>Logo</div>
+        <button class="login-button" href="#next-Step">Student Login</button>
+      </nav>
+
+      <!--Header Hero Inner-->
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1 class="hero-Text">
+            MHR Training. Fully Funded Courses To Excel You're Career!
+          </h1>
+          <p>Contact us today to find out more!</p>
+          <a href="#" class="btn">Contact us now</a>
+        </div>
+      </div>
+    </header>
+
+    <!--C0pyforthenote-->
+
+    <!--Table Component-->
+
+    <section class="table-comp">
+      <table>
+        <thead>
+          <tr>
+            <th>Course Name</th>
+            <th>Start Date</th>
+            <th>Length Of Course</th>
+            <th>Book Now</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Foundation of Software Development</th>
+            <td>26/05/2022</td>
+            <td>7 Days</td>
+            <td><button class="button-1">Book Now</button></td>
+          </tr>
+          <tr>
+            <th>Foundation Of Data Analysis</th>
+            <td>31/05/2022</td>
+            <td>10 Days</td>
+            <td><button class="button-2">Book Now</button></td>
+          </tr>
+          <tr>
+            <th>Soft Skills For ICT Professionals</th>
+            <td>28/05/2022</td>
+            <td>13 Days</td>
+            <td><button class="button-3">Book Now</button></td>
+          </tr>
+          <tr>
+            <th>Advanced CSS</th>
+            <td>31/05/2022</td>
+            <td>22 Days</td>
+            <td><button class="button-4">Book Now</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!--Carousel Reviews-->
+    <div class="carousel">
+      <img class="carousel-img" src="images/Woman1.jpg" alt="Woman1" />
+      <blockquote class="testimonial">
+        <h1 class="title-reviews">
+          See what our customers are saying about us:
+        </h1>
+        <p class="testimonial-text">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quo
+          rem repellendus illo reprehenderit nemo. Adipisci nesciunt quas nulla
+          ex laboriosam deleniti illo harum omnis? Eaque, itaque modi? Eligendi,
+          alias?"
+        </p>
+        <p class="testimonial-author">Advanced CSS Demo 1</p>
+        <p class="testimonial-job">
+          <strong>Senior Product Manager at Amazon </strong>
+        </p>
+      </blockquote>
+      <!--Btn Left-->
+      <button class="btn1 btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn-icon1"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <!--Btn Right-->
+      <button class="btn1 btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn-icon1"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <button class="dot1">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
+    </div>
+
+    <!--ModalWindow One-->
+    <div class="modalOne hidden">
+      <button class="closeModalOne">&times;</button>
+      <h1 class="header-modals">Foundation of Software Development</h1>
+      <form>
+        <label class="text-modal" for="firstName">First Name </label>
+        <input type="text" id="firstName" name="firstName" /><br />
+        <label class="text-modal" for="lastName">Last Name </label>
+        <input type="text" id="lastName" name="lastName" /><br />
+        <label class="text-modal" for="emailAddress">First Name </label>
+        <input type="email" id="emailAddress" name="emailAddress" /><br />
+        <button>Submit</button>
+      </form>
+    </div>
+    <div class="overlayOne hidden"></div>
+
+    <!--ModalWindow Two-->
+    <div class="modalTwo hidden">
+      <button class="closeModalTwo">&times;</button>
+      <h1 class="header-modals">Foundation Of Data Analysis</h1>
+      <form>
+        <label class="text-modal" for="firstName">First Name </label>
+        <input type="text" id="firstName" name="firstName" /><br />
+        <label class="text-modal" for="lastName">Last Name </label>
+        <input type="text" id="lastName" name="lastName" /><br />
+        <label class="text-modal" for="emailAddress">First Name </label>
+        <input type="email" id="emailAddress" name="emailAddress" /><br />
+        <button>Submit</button>
+      </form>
+    </div>
+    <div class="overlayTwo hidden"></div>
+
+    <!--ModalWindow Three-->
+    <div class="modalThree hidden">
+      <button class="closeModalThree">&times;</button>
+      <h1 class="header-modals">Soft Skills For ICT Professionals</h1>
+      <form>
+        <label class="text-modal" for="firstName">First Name </label>
+        <input type="text" id="firstName" name="firstName" /><br />
+        <label class="text-modal" for="lastName">Last Name </label>
+        <input type="text" id="lastName" name="lastName" /><br />
+        <label class="text-modal" for="emailAddress">First Name </label>
+        <input type="email" id="emailAddress" name="emailAddress" /><br />
+        <button>Submit</button>
+      </form>
+    </div>
+    <div class="overlayThree hidden"></div>
+
+    <!--ModalWindow Four-->
+    <div class="modalFour hidden">
+      <button class="closeModalFour">&times;</button>
+      <h1 class="header-modals">Advanced CSS</h1>
+      <form>
+        <label class="text-modal" for="firstName">First Name </label>
+        <input type="text" id="firstName" name="firstName" /><br />
+        <label class="text-modal" for="lastName">Last Name </label>
+        <input type="text" id="lastName" name="lastName" /><br />
+        <label class="text-modal"for="emailAddress">First Name </label>
+        <input type="email" id="emailAddress" name="emailAddress" /><br />
+        <button>Submit</button>
+      </form>
+    </div>
+    <div class="overlayFour hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
